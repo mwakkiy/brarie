@@ -26,6 +26,8 @@ body {
 		margin: 5px;
 		&--item{
 			display: block;
+			float: left;
+			margin: 5px 20px;
 			&__active{
 				text-decoration: underline;
 			}
