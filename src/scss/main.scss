@@ -10,6 +10,16 @@ body {
 	font-family: "メイリオ", Meiryo, "游ゴシック", YuGothic, 'ＭＳ Ｐゴシック',sans-serif;
 	-webkit-text-size-adjust: 100%;
 }
+.wrapper{
+	width: 950px;
+	margin: 0 auto;
+}
+.clearfix:after
+{
+    display: table;
+    clear: both;
+    content: '';
+}
 
 // ===========================
 // global menu
@@ -18,12 +28,15 @@ body {
 	background-color: #fff;
 	&--siteTitle{
 		font-size: 150%;
+		float: left;
+		margin: 5px;
 	}
 	&--menuBtn{
 		font-size: 110%;
 	}
 	&--itemLists{
 		margin: 5px;
+		float: right;
 		&--item{
 			display: block;
 			float: left;
